@@ -1,0 +1,21 @@
+# 忽略 Python 缓存
+**/__pycache__/
+*.py[cod]
+
+*.log
+*.tmp
+
+# 忽略虚拟环境（常见名）
+venv/
+env/
+
+# 忽略特定文件夹
+cs_train_pics/
+media/
+
+# 忽略特定文件
+problems.md
+screen.py
+yolo11n.pt
+yolo11s.pt
+launch.bat

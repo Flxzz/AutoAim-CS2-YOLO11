@@ -1,0 +1,33 @@
+# model path
+model_path: "model/best.pt"
+
+# true:use gpu, false:use cpu
+use_gpu_capture: false
+
+# the screnn region to capture
+screen_region:
+  left: 0
+  top: 31
+  width: 1920
+  height: 1080
+
+# class names
+names: ['ct', 'ct_head', 't', 't_head']
+
+# classes to detect
+aim_classes: [0, 1, 2, 3]
+
+# prefer heads, then body
+preferred_cls: [1, 3, 0, 2]
+
+# mouse move delay(0 means no delay)
+mouse_move_delay: 0.01
+
+# min conf, if the confidence of the detection is less than this value, it will not be considered
+confidence_threshold: 0.7
+
+# visualize or not(true for debug)
+visualize: true
+
+# path to log file
+log_file: "log/run.log"
