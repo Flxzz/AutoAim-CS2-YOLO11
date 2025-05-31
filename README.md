@@ -49,9 +49,9 @@ python visial.py
 
 ## 📷 项目演示
 
-![AWP](E:\projects\CS_YOLO_AimEnemy\media\AWP.gif)
+![AWP](media\AWP.gif)
 
-![M4](E:\projects\CS_YOLO_AimEnemy\media\M4.gif)
+![M4](media\M4.gif)
 
 ---
 
