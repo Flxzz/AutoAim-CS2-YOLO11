@@ -26,9 +26,7 @@
 
 建议使用 Python 3.10+，安装依赖：
 
-```bash
-pip install -r requirements.txt  # 若你未写，可使用 pip install 逐个安装
-```
+所有依赖可使用 pip install 逐个安装
 
 ### ✅ 配置
 
