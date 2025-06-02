@@ -49,11 +49,9 @@ python visial.py
 
 ## 📷 项目演示
 
-(在media文件夹中，晚些修改)
-
 ![AWP](media/AWP.gif)
 
-![M4](media/M4.gif)
+更多的演示在media文件夹中，可自行查阅。
 
 ---
 
@@ -61,7 +59,7 @@ python visial.py
 
 - 本项目训练数据来自游戏实战录屏，抽帧提取约 300 张图片  
 - 在 Roboflow 平台进行标注、扩增后生成约 1000 张数据  
-
+- 数据已开源，地址如下：https://app.roboflow.com/my-yolo-label/yolo11-cs2-test/4
 
 ---
 
