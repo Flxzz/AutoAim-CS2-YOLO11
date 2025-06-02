@@ -51,9 +51,9 @@ python visial.py
 
 (在media文件夹中，晚些修改)
 
-![AWP](media\AWP.gif)
+![AWP](media/AWP.gif)
 
-![M4](media\M4.gif)
+![M4](media/M4.gif)
 
 ---
 
