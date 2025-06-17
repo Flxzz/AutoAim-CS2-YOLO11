@@ -19,7 +19,7 @@ def main():
     model = YOLOModel(cfg["model_path"])
 
     while True:
-        frame = grab(region=cfg["screen_region"], use_gpu=cfg["use_gpu_capture"])
+        frame = grab(region=cfg["screen_region"])
         img_tensor = preprocess(frame)
         detections = model.infer(img_tensor, conf = cfg["confidence_threshold"])
         mouse_position = get_mouse_position()

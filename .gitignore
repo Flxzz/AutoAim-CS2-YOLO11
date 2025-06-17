@@ -18,3 +18,5 @@ screen.py
 yolo11n.pt
 yolo11s.pt
 launch.bat
+Dockerfile
+import.py
