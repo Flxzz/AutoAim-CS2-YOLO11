@@ -15,7 +15,7 @@ def load_config(path="config.yaml"):
 
 def main():
     cfg = load_config()
-    log = setup_logger(log_file=cfg["log_file"])
+    # log = setup_logger(log_file=cfg["log_file"])
     model = YOLOModel(cfg["model_path"])
 
     while True:
